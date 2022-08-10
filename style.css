@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@media (max-width: 414px){
+    *{
+        box-sizing: border-box;
+    }
+
+    h1{
+        font-family: 'Righteous', cursive;
+    }
+
+    h2,
+    h3,
+    h4,
+    p{
+        font-family: "Roboto", sans-serif;
+    }
+
+    body{
+        background-color: #E5E5E5;
+    }
+
+    .top-menu{
+        background-color: #CF2B2B;
+        width: 100%;
+        height: 92px;
+        position: fixed;
+        top: 0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .brand-name{
+        color: #FFFFFF;
+        font-size: 44px;
+        margin-left: 21px;
+        padding-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .slogan{
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 300;
+        margin-left: 21px;
+        margin-top: 0;
+    }
+
+    .container{
+        width: 100%;
+        background-color: #E5E5E5;
+        margin-top: 140px;
+    }
+
+    .title-category{
+        color: #333333;
+        width: 100%;
+        background-color: #E5E5E5;
+        margin-top: 30px;
+        font-size: 26px;
+        font-weight: 400;
+        margin-left: 21px;
+        margin-bottom: 15px;
+    }
+    .food{
+        background-color: #E5E5E5;
+        width: 100%;
+    }
+    
+    .plates{
+        background-color: #E5E5E5;
+        width: 414px;
+        height: 216px;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        overflow: scroll;
+    }
+
+    .foods{
+        background-color: #FFFFFF;
+        width: 172px;
+        height: 216px;
+        margin-left: 18px;
+        border-radius: 9px;
+        flex-shrink: 0;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+        
+    }
+
+    .chicken img {
+        width: 85%;
+        margin-left: 13px;
+        margin-top: 13px;  
+    }
+    .chicken h2{
+        color: #333333;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+    .chicken p{
+        color: #A6A6A6;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+    .chicken h3{
+        color:#000000;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+
+    /* --- fim da comida --- */
+
+    .gas{
+        width: 414px;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        overflow: scroll;
+    }
+
+    .drinks{
+        background-color: #FFFFFF;
+        width: 172px;
+        height: 202px;
+        margin-left: 18px;
+        border-radius: 9px;
+        display: flex;
+        flex-shrink: 0;
+    }
+
+    .coke img {
+        width: 90%;
+        margin-left: 13px;
+        margin-top: 13px;  
+    }
+    .coke h2{
+        color:#333333;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+    .coke p{
+        color:#A6A6A6;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+    .coke h3{
+        color:#000000;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+
+    /* --- fim dos drinks ---*/
+    .desert{
+        margin-bottom: 130px;
+    }
+    .kind{
+        width: 414px;
+        display: flex;
+        overflow: scroll;
+    }
+
+    .deserts{
+        background-color: #FFFFFF;
+        width: 172px;
+        height: 197px;
+        margin-left: 18px;
+        border-radius: 9px;
+        display: flex;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    .pudim img {
+        width: 92%;
+        margin-left: 13px;
+        margin-top: 13px;  
+    }
+    .pudim h2{
+        color:#333333;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+    .pudim p{
+        color: #A6A6A6;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+    .pudim h3{
+        color: #000000;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+
+    /* --- fim da sobremesa --*/
+
+    .confirm-pay{
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 92px;
+        
+        padding-top: 5px;
+        position: fixed;
+        bottom:0
+    }
+
+    .ballon{
+        height: 60px;
+        background-color: #CBCBCB;
+        margin: 10px 25px 16px 25px;
+        margin-bottom: 15px;
+        border-radius: 20px;
+        padding-top: 3px;
+    }
+    .ballon h4{
+        color: #FFFFFF;
+        width: 200px;
+        font-size: 20px;
+        font-weight: 300;
+        margin-left: 90px;
+        margin-right: 60px;
+        padding: 10px;
+        
+    }
+
+}
