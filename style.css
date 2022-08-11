@@ -49,7 +49,7 @@
     .container{
         width: 100%;
         background-color: #E5E5E5;
-        margin-top: 140px;
+        margin-top: 120px;
     }
 
     .title-category{
@@ -92,6 +92,7 @@
         width: 85%;
         margin-left: 13px;
         margin-top: 13px;  
+        border-radius: 8px;
     }
     .chicken h2{
         color: #333333;
@@ -133,13 +134,16 @@
         border-radius: 9px;
         display: flex;
         flex-shrink: 0;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     }
 
     .coke img {
-        width: 90%;
+        width: 86%;
         margin-left: 13px;
         margin-top: 13px;  
+        border-radius: 8px;
     }
+    
     .coke h2{
         color:#333333;
         font-size: 16px;
@@ -181,12 +185,14 @@
         display: flex;
         overflow: hidden;
         flex-shrink: 0;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     }
 
     .pudim img {
-        width: 92%;
+        width: 86%;
         margin-left: 13px;
-        margin-top: 13px;  
+        margin-top: 13px; 
+        border-radius: 8px; 
     }
     .pudim h2{
         color:#333333;
