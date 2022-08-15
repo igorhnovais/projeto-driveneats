@@ -94,7 +94,7 @@ function executeOrder() {
     const endereco = prompt("Qual o seu endereço?");
     soma = valueFood + valueDrink + valueDessert;
     const link = "https://wa.me/5511996807608?text=" + encodeURIComponent( 
-        `Ola, gostaria de fazer o pedido:\n- Prato: ${nameFood}\n- Bebida: ${nameDrink}\n- Sobremesa: ${nameDessert}\n- Total: ${soma}\nNome: ${nome}\nEndereço: ${endereco}`    
+        `Ola, gostaria de fazer o pedido:\n- Prato: ${nameFood}\n- Bebida: ${nameDrink}\n- Sobremesa: ${nameDessert}\n- Total: R$ ${soma}\nNome: ${nome}\nEndereço: ${endereco}`    
     );
 
     window.open(link);
