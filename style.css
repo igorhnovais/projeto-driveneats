@@ -62,6 +62,9 @@
         margin-left: 21px;
         margin-bottom: 15px;
     }
+
+    
+
     .food{
         background-color: #E5E5E5;
         width: 100%;
@@ -74,11 +77,13 @@
         display: flex;
         align-items: center;
         margin-top: 0;
-        overflow: scroll;
+        overflow-x: scroll;
     }
 
     .foods{
         background-color: #FFFFFF;
+        font-size: 0;
+        color: white;
         width: 172px;
         height: 216px;
         margin-left: 18px;
@@ -116,6 +121,7 @@
         margin-top: 5px;
     }
 
+    
     /* --- fim da comida --- */
 
     .gas{
@@ -166,8 +172,10 @@
         margin-top: 5px;
     }
 
+    
+
     /* --- fim dos drinks ---*/
-    .desert{
+    .dessert{
         margin-bottom: 130px;
     }
     .kind{
@@ -176,7 +184,7 @@
         overflow: scroll;
     }
 
-    .deserts{
+    .desserts{
         background-color: #FFFFFF;
         width: 172px;
         height: 197px;
@@ -216,6 +224,8 @@
         margin-top: 5px;
     }
 
+    
+
     /* --- fim da sobremesa --*/
 
     .confirm-pay{
@@ -247,4 +257,54 @@
         
     }
 
+    /* ---- COMEÇO DO JAVASCRIPT ---*/
+
+    .selecionado{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+        border-radius: 9px;
+    }
+    .selecionado ion-icon{
+        display: initial;
+        color:#32B72F;
+        font-size: 25px;
+        margin-right: 7px;
+    }
+
+    .fechar-pedido{
+        background-color: #32B72F;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    ion-icon{  
+        display: none;  
+    }
+    
+    
+    .chicken .check{
+        margin-top: 22px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .coke .check{
+        margin-top: 22px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .pudim .check{
+        margin-top: 1px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .valueFood{
+        display: none;
+    }
+    .valueDrink{
+        display: none;
+    }
+    .valueDessert{
+        display: none;
+    }
 }
